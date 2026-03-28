@@ -35,8 +35,8 @@ Parameters:
   
   InstanceType:
     Type: String
-    Default: 't3.micro'
-    AllowedValues: ['t3.micro', 't3.small', 't3.medium']
+    Default: 't2.micro'
+    AllowedValues: ['t2.micro', 't3.micro', 't3.small', 't3.medium']
     Description: EC2 instance type
   
   KeyName:
